@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/App'
+import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -11,7 +11,7 @@ require('bootstrap');
 
 render(
 <div>
-<h1>hola liz </h1>
+
  <App/>
 </div>,
 

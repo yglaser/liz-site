@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Navbar from './components/Navbar'
 class App extends Component {
     state = {
         task: {
@@ -15,15 +15,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h3>
-                    {this.state.task.title}
-                </h3>
-                <h3>
-                    {this.state.task.done.toString()}
-                </h3>
-                <button className="mx-2 btn btn-primary"onClick= {this.handleClick}>
-                    Click
-                </button>
+             <Navbar/>
             </div>
         )
     }
